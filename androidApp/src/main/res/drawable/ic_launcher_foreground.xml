@@ -2,7 +2,7 @@
 <!-- 横向放大鲸鱼标识，同时保留启动器自适应图标的安全边距。 -->
 <inset xmlns:android="http://schemas.android.com/apk/res/android"
     android:drawable="@drawable/deepseek_whale"
-    android:insetLeft="16%"
-    android:insetTop="24%"
-    android:insetRight="16%"
-    android:insetBottom="24%" />
+    android:insetLeft="21%"
+    android:insetTop="28%"
+    android:insetRight="21%"
+    android:insetBottom="28%" />

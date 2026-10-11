@@ -2,7 +2,7 @@
 <!-- 使用与彩色图标一致的横向比例，并保留自适应图标的边缘留白。 -->
 <inset xmlns:android="http://schemas.android.com/apk/res/android"
     android:drawable="@drawable/deepseek_whale"
-    android:insetLeft="18%"
-    android:insetTop="27%"
-    android:insetRight="18%"
-    android:insetBottom="27%" />
+    android:insetLeft="22%"
+    android:insetTop="30%"
+    android:insetRight="22%"
+    android:insetBottom="30%" />
