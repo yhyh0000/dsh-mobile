@@ -127,7 +127,7 @@ internal fun WorkspaceDrawer(
                 Row(
                     modifier = Modifier.padding(start = 12.dp, bottom = 16.dp)
                         .size(width = 216.dp, height = 29.dp)
-                        .semantics { contentDescription = "Whaleness Harness" },
+                        .semantics { contentDescription = "DeepSeek Harness" },
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.spacedBy(4.dp)
                 ) {
@@ -136,7 +136,9 @@ internal fun WorkspaceDrawer(
                         tint = if (dark) Color.White else Color.Black
                     )
                     Image(
-                        painter = painterResource(R.drawable.dsh_whaleness_wordmark),
+                        painter = painterResource(
+                            if (dark) R.drawable.dsh_brand_wordmark_dark else R.drawable.dsh_brand_wordmark
+                        ),
                         contentDescription = null,
                         modifier = Modifier.size(width = 183.dp, height = 29.dp)
                     )

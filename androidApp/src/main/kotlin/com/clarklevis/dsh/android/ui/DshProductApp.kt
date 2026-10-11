@@ -474,7 +474,7 @@ private fun HarnessMark(onClick: () -> Unit, modifier: Modifier = Modifier) {
             )
             if (showWordmark) {
                 Image(
-                    painter = painterResource(R.drawable.dsh_whaleness_wordmark_dark),
+                    painter = painterResource(R.drawable.dsh_brand_wordmark_dark),
                     contentDescription = null,
                     modifier = Modifier.size(width = 183.dp * scale, height = 29.dp * scale)
                 )
@@ -489,8 +489,8 @@ internal fun WhalenessOrcaIcon(
     tint: Color = MaterialTheme.colorScheme.onSurface
 ) {
     Image(
-        painter = painterResource(R.drawable.dsh_orca_mark),
-        contentDescription = "Whaleness",
+        painter = painterResource(R.drawable.deepseek_whale),
+        contentDescription = "DeepSeek Harness",
         modifier = modifier,
         colorFilter = ColorFilter.tint(tint)
     )

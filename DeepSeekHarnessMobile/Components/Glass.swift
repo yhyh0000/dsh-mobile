@@ -80,14 +80,14 @@ struct HarnessMark: View {
         HStack(spacing: 4) {
             WhalenessOrcaIcon(size: 29)
                 .foregroundStyle(onDarkBackground ? Color.white : Color.black)
-            Image("WhalenessHarnessWordmark")
+            Image("DshBrandWordmark")
                 .resizable()
                 .scaledToFit()
                 .colorInvertIfNeeded(onDarkBackground)
                 .frame(maxWidth: .infinity, maxHeight: 29, alignment: .leading)
         }
         .frame(width: width, height: 29, alignment: .leading)
-        .accessibilityLabel("Whaleness Harness")
+        .accessibilityLabel("DeepSeek Harness")
     }
 }
 

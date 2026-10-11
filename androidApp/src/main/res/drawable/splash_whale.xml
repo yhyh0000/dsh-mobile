@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Android 12+ 会遮罩启动图标；方形透明画布保留虎鲸标识的完整轮廓。 -->
+    <!-- Android 12+ 会遮罩启动图标；方形透明画布保留 DeepSeek 鲸鱼标识的完整轮廓。 -->
     <item>
         <shape android:shape="rectangle">
             <size
@@ -12,6 +12,6 @@
     <item
         android:width="64dp"
         android:height="64dp"
-        android:drawable="@drawable/dsh_orca_mark"
+        android:drawable="@drawable/deepseek_whale"
         android:gravity="center" />
 </layer-list>

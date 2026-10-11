@@ -4,6 +4,6 @@
     <item
         android:width="100dp"
         android:height="100dp"
-        android:drawable="@drawable/dsh_orca_mark"
+        android:drawable="@drawable/deepseek_whale"
         android:gravity="center" />
 </layer-list>
