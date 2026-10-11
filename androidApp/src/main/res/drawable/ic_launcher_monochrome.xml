@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 使用 DeepSeek 鲸鱼标识，并保留适合自适应图标的边缘留白。 -->
+<!-- 使用与彩色图标一致的横向比例，并保留自适应图标的边缘留白。 -->
 <inset xmlns:android="http://schemas.android.com/apk/res/android"
     android:drawable="@drawable/deepseek_whale"
-    android:insetLeft="26%"
-    android:insetTop="26%"
-    android:insetRight="26%"
-    android:insetBottom="26%" />
+    android:insetLeft="12%"
+    android:insetTop="22%"
+    android:insetRight="12%"
+    android:insetBottom="22%" />
