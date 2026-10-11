@@ -3,6 +3,6 @@
 <inset xmlns:android="http://schemas.android.com/apk/res/android"
     android:drawable="@drawable/deepseek_whale"
     android:insetLeft="7%"
-    android:insetTop="25%"
+    android:insetTop="18%"
     android:insetRight="7%"
-    android:insetBottom="25%" />
+    android:insetBottom="18%" />

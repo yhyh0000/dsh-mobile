@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="launcher_icon_background">#091827</color>
+    <color name="launcher_icon_background">#4059D6</color>
     <color name="whale_foreground">#FFFFFF</color>
     <color name="splash_background">#091827</color>
 </resources>
