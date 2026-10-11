@@ -35,9 +35,14 @@ jobs:
           chmod +x ./gradlew
           ./gradlew :androidApp:assembleDebug --no-daemon
 
+      - name: Rename debug APK with version
+        run: |
+          cp androidApp/build/outputs/apk/debug/androidApp-debug.apk \
+            androidApp/build/outputs/apk/debug/DeepSeek-Harness-1.7.4-black-icon.apk
+
       - name: Upload debug APK
         uses: actions/upload-artifact@v4
         with:
-          name: DeepSeek-Harness-debug-apk
-          path: androidApp/build/outputs/apk/debug/androidApp-debug.apk
+          name: DeepSeek-Harness-v1.7.4-black-icon
+          path: androidApp/build/outputs/apk/debug/DeepSeek-Harness-1.7.4-black-icon.apk
           if-no-files-found: error
