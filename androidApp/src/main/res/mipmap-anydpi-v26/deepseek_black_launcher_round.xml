@@ -7,8 +7,8 @@
         </shape>
     </item>
     <item
-        android:width="28dp"
-        android:height="21dp"
+        android:width="25dp"
+        android:height="19dp"
         android:drawable="@drawable/deepseek_whale"
         android:gravity="center" />
 </layer-list>
