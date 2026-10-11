@@ -468,15 +468,16 @@ private fun HarnessMark(onClick: () -> Unit, modifier: Modifier = Modifier) {
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(7.dp * scale)
         ) {
-            WhalenessOrcaIcon(
-                modifier = Modifier.size(if (showWordmark) 29.dp * scale else 29.dp),
-                tint = Color.White
-            )
             if (showWordmark) {
                 Image(
                     painter = painterResource(R.drawable.dsh_brand_wordmark_dark),
                     contentDescription = null,
                     modifier = Modifier.size(width = 183.dp * scale, height = 29.dp * scale)
+                )
+            } else {
+                WhalenessOrcaIcon(
+                    modifier = Modifier.size(29.dp),
+                    tint = Color.White
                 )
             }
         }

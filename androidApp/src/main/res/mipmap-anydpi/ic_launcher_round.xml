@@ -8,7 +8,7 @@
     </item>
     <item
         android:width="29dp"
-        android:height="29dp"
-        android:drawable="@drawable/launcher_icon_artwork"
+        android:height="22dp"
+        android:drawable="@drawable/deepseek_whale"
         android:gravity="center" />
 </layer-list>

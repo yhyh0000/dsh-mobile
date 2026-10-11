@@ -126,15 +126,11 @@ internal fun WorkspaceDrawer(
             ) {
                 Row(
                     modifier = Modifier.padding(start = 12.dp, bottom = 16.dp)
-                        .size(width = 216.dp, height = 29.dp)
+                        .size(width = 183.dp, height = 29.dp)
                         .semantics { contentDescription = "DeepSeek Harness" },
                     verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(4.dp)
+                    horizontalArrangement = Arrangement.Start
                 ) {
-                    WhalenessOrcaIcon(
-                        modifier = Modifier.size(29.dp),
-                        tint = if (dark) Color.White else Color.Black
-                    )
                     Image(
                         painter = painterResource(
                             if (dark) R.drawable.dsh_brand_wordmark_dark else R.drawable.dsh_brand_wordmark

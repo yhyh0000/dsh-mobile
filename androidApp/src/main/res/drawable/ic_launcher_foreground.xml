@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 按图层边界比例居中缩放；相当于在 108dp 画布中放置 60dp 原图，避免固定 dp 在不同启动器下放大。 -->
+<!-- DeepSeek 鲸鱼图标作为自适应图标前景；横向留白避免启动器裁切。 -->
 <inset xmlns:android="http://schemas.android.com/apk/res/android"
-    android:drawable="@drawable/launcher_icon_artwork"
-    android:insetLeft="22.22%"
-    android:insetTop="22.22%"
-    android:insetRight="22.22%"
-    android:insetBottom="22.22%" />
+    android:drawable="@drawable/deepseek_whale"
+    android:insetLeft="14%"
+    android:insetTop="28%"
+    android:insetRight="14%"
+    android:insetBottom="28%" />
